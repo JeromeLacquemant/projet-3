@@ -1,0 +1,132 @@
+/*Gestion logo de la navbar*/
+.logo
+{
+    width:70px;
+}
+
+@media (max-width: 850px)
+{
+.logo
+    {
+        width:60px;
+    }
+.navbar-collapse
+    {
+        z-index:999;
+        background: gray;
+        padding:10px;
+        box-sizing: border-box;
+    }
+} 
+
+.navbar
+{
+    border-bottom: 4px #8DC43B groove;
+}
+
+.navbar-nav
+{
+    overflow:visible;
+}
+
+/*Gestion du caroussel caption*/
+.caroussel-caption
+{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+/*Gestion de la taille des images de chaque article et des titres*/
+.article-image
+{
+    width:50%;
+}
+
+.article-text
+{
+    color: #849C24;
+    text-align:center;
+}
+
+/* Pour les titres de la page d'accueil*/
+.titre
+{
+    text-align:center;
+    justify-content:center;
+    color:#C785A9;
+    margin-bottom:0em;
+    font-family: Lobster;
+    font-style:bold;
+    font-style:italic;
+    padding: 8px;
+    font-size:60px;
+}
+
+.titre-accueil
+{
+    color:#B3DB2C;
+}
+
+.titre-secondaire
+{
+    color:#B3DB2C;
+    font-size: 40px;
+}
+
+/* Pour la gestion des boutons */
+.btn-reservation-presentation 
+{
+    background-color: #C785A9;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    font-style:bold; 
+}
+
+.btn-reservation
+{
+    background-color: #C785A9;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    font-style:bold;
+    display:block;
+}
+
+.btn-contact
+{
+    background-color: #849C24;
+    font-style:bold;
+    color:white;
+}
+
+.btn-formulaire
+{
+    background-color:#C785A9;
+    color:white;
+    font-style:bold;
+}
+
+/*Pour le survol des liens vers les articles */
+.card-title a
+{
+    color:  #C785A9;
+}
+
+/*Pour le survol du lien du footer*/
+a{
+    color:#849C24;
+}
+a:hover
+{
+    color:  #C785A9;
+}
+
+.mentions
+{
+    color:#849C24;
+}
